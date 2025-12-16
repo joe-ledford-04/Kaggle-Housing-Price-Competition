@@ -13,9 +13,13 @@ Ranked 877 globally with an RMSE score of 0.12381, my second submission greatly 
 
 ## Submission Three
 
-Ranked 768 globally with an RMSE score of 0.12308, my third submission added ensembling. I removed the baseline model that only uses a Catboosted regressor and included a combination of four other models that both performed well and added variation to the approach of the problem. The final prediction on the test set is a combination of all five models' predictions equally weighted by 20%. This lowered my RMSE score by .00073 and improved my global ranking by 109. 
+Ranked 768 globally with an RMSE score of 0.12308, my third submission added ensembling. I removed the baseline model that only uses a CatBoosted regressor and included a combination of four other models that both performed well and added variation to the approach of the problem. The final prediction on the test set is a combination of all five models' predictions equally weighted by 20%. This lowered my RMSE score by .00073 and improved my global ranking by 109. 
+
+## Submission Four
+
+I started this new submission by trying feature engineering with some custom features. However, none of them improved in the model; in fact, they did the opposite. The custom features were adding additional noise that was doing more harm than good. As a pivot, I turned my attention back to the ensembling I had just done. The CatBoosted regressor had a significantly lower RMSE than all other top models in the ensemble, making me inclined to tweak the weighting of my combined prediction. I added 20% more weight to the CatBoosted regressor and removed 10% of the weight from the two lowest-performing models in the ensemble: orthogonal matching pursuit and ridge regressor. This new submission decreased my RMSE score by 0.00171 from 0.12308 to 0.12137, and moved me up the leaderboard to 533 on the global rankings.  
 
 
 ## Future Submissions
 
-My fourth submission will build upon the third by adding feature engineering 
+My fifth submission will include hyperparameter optimization. 
