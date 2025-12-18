@@ -1,4 +1,4 @@
-# Kaggle-Housing-Price-Competition
+# Kaggle-Housing-Price-Competition[Top 10% Finish]
 
 This repository includes all of my Kaggle Housing Price competition submissions. The dataset for this competiton includes 1459 observations of residential homes in Ames, Iowa. It includes 79 feature variables and is evaluated based on Root Mean Squared Error (RMSE).
 
