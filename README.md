@@ -23,4 +23,5 @@ I started this new submission by trying feature engineering with some custom fea
 ## Fifth Submission
 
 Adding hyperparameter optimization was the final stage of my Housing Price Competition submissions. I used the Optuna package over more ordinary grid search techniques, partly in fear that grid search would be too computationally expensive for my MacBook Air to handle, but I also like the seamless process Optuna provides. I ran an Optuna study for each model in my ensemble except for the Orthogonal Matching Pursuit as the parameters available for optimization in that model are limited and wouldn't do much of anything to improve my score. After all studies were complete, I integrated the parameter optimizations into my ensemble and recalculated my submission. My final submission ended up being my lowest score of 0.12106, and my highest ranking at 511 globally at the time of writing this. I spent additional time trying to further improve my optimizations, but after a couple of identical scores, further tweaks seemed superfluous.  
-**Outputs were cleared for my fifth submission notebook in order to fit the file size designated by github**
+
+**Outputs were cleared for my fifth submission notebook in order to fit the file size designated by github.**
